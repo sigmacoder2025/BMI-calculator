@@ -44,9 +44,9 @@ function calcBMI(){
         message.style.fontFamily="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
         message.style.fontSize="30px";
     }
-    else{
-        message.style.display="none";
-    }
+    // else{
+    //     message.style.display="none";
+    // }
 }
 
 }
