@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <div class="mother-container">
+        <div class="header">
+            <!-- <img src="images/logo.svg" alt="logo"> -->
+            <img src="images/bmi.png" alt="">
+            <h1>Body Mass Index Calculator</h1>
+            <p>Calculate your Body Mass Index (BMI) to check if your weight is within a healthy range for your height. Simply enter your weight and height, and get instant results! BMI helps you understand whether you're underweight, at a healthy weight, overweight, or obese. Keep in mind that BMI is a general guideline and does not account for muscle mass or other health factors.</p>
+        </div>
+        <div class="child-container">
+            <h2 style="color: white;">Enter your details below</h2>
+            <div class="hw-section">
+                <div class="height-section">
+                    <h1>Height</h1>
+                    <div class="entry-bar">
+                        <input type="text" class="height" placeholder="0">
+                        <p class="cm">cm</p>
+                    </div>
+                </div>
+                <div class="weigth-section">
+                    <h1>Weight</h1>
+                    <div class="entry-bar">
+                        <input type="text" class="weight" placeholder="0">
+                        <p class="kg">kg</p> 
+                    </div>
+                </div>
+            </div> 
+            <div class="msg-vis">
+                <div class="message">
+                    <h2 class="welcome">Welcome!</h2>
+                    <p class="welcome_more">Enter your height and weight and you’ll see your BMI result here</p>
+                </div>
+                <div class="visual">
+                    <div class="blue">
+                        <p class="means">Underweight</p>
+                    </div>
+                    <div class="green">
+                        <p class="means">Normal</p>
+                    </div>
+                    <div class="red">
+                        <p class="means">Overweight</p>
+                    </div>
+                </div>
+            </div>
+            <p class="figure">16.0 &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18.5&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25.0&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;40.0</p>
+        </div>
+        <div class="inference-section">
+            <h1>
+                What your BMI result means
+            </h1>
+            <div class="text">
+                A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a healthy weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced fat and sugar content, incorporating ample fruits and vegetables. Additionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

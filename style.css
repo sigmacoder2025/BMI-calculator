@@ -1,0 +1,147 @@
+.mother-container{
+    background-color: black;
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: white;
+}
+.header img{
+    width: 114px;
+    height: 114px;
+}
+.child-container{
+    background-color: rgba(128, 128, 128, 0.224);
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+.child-container h2{
+    font-size: 30px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 2px;
+}
+.welcome_more{
+    font-size: 25px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.height-section{
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 15px;
+    width: 400px;
+    height: 223px;
+    margin-top: 30px;
+    color: white;
+}
+.weigth-section{
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 15px;
+    width: 400px;
+    height: 223px;
+    margin-top: 30px;
+    color: white;
+}
+.hw-section{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.entry-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: orange;
+}
+.entry-bar input{
+    width: 183px;
+    height: 36px;
+    border: transparent;
+    outline: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #3c3a3a;
+}
+.cm,.kg{
+    font-size: 30px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.message{
+    background-color: orange;
+    width: 500px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 20px 100px 100px 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.welcome{
+    color: black;
+}
+.visual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    width: 80px;
+    height: 10px;
+    /* border: 3px solid black; */
+    margin-top: 50px;
+    background-color: rgb(10, 169, 231);
+    color: rgb(10, 169, 231);
+    font-size: 15px;
+}
+.green{
+    width: 80px;
+    height: 10px;
+    /* border: 3px solid black; */
+    margin-top: 50px;
+    background-color: rgb(14, 242, 14);
+    color: rgb(14, 242, 14);
+    font-size: 15px;
+}
+.red{
+    width: 80px;
+    height: 10px;
+    /* border: 3px solid black; */
+    margin-top: 50px;
+    background-color: red;
+    color: red;
+    font-size: 15px;
+}
+.means{
+    margin-bottom: 20px;
+}
+.figure{
+    width: 300px;
+    height: 20px;
+    margin-top: 0px;
+    color: white;
+    margin-left: 525px;
+    margin-top: -108px;
+}
+.msg-vis{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    width: 800px;
+    height: 190px;
+    border: 3px solid black; 
+    margin-left: 400px;
+    font-size: 27px;
+}
