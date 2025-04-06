@@ -145,3 +145,39 @@
     margin-left: 400px;
     font-size: 27px;
 }
+@media (max-width:1200px){
+    .mother-container{
+        width: 400px;
+        height: 2000px;
+    }
+    .child-container{
+        width: 300px;
+    }
+    .hw-section{
+        display: inline;
+    }
+    .height-section{
+        width: 300px;
+    }
+    .weigth-section{
+        width: 300px;
+    }
+    .msg-vis{
+        display: inline;
+    }
+    .message{
+        width: 300px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .welcome, .welcome_more{
+        display: none;
+    }
+    .text{
+        visibility: hidden;
+    }
+    .figure{
+        display: inline;
+        margin-left: -20px;
+    }
+}
